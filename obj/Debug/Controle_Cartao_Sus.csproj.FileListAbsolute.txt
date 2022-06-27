@@ -1,0 +1,20 @@
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.exe.config
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.exe
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.pdb
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csprojAssemblyReference.cache
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.frmPrincipal.resources
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.Properties.Resources.resources
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.GenerateResource.cache
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.exe
+C:\Users\vinicius.p\Desktop\CURSOS PANI\SENAI\PROJETO C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.pdb
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.frmPrincipal.resources
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.Properties.Resources.resources
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.GenerateResource.cache
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.CoreCompileInputs.cache
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.exe
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.pdb
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.exe.config
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.exe
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.pdb
+C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.AssemblyReference.cache
