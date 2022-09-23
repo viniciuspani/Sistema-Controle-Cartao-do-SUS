@@ -290,6 +290,7 @@ namespace Controle_Cartao_Sus
         {
             LimparCampos();
             LimparDGV();
+            Exibicao(1);
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -304,6 +305,14 @@ namespace Controle_Cartao_Sus
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             Exibicao(1);
+        }
+
+        private void btnGerarArqCSV_Click(object sender, EventArgs e)
+        {
+            ConexaoBD conexao = new ConexaoBD(DadosDaConexao.StrConexao);
+            BLLOperador objBLL = new BLLOperador(conexao);
+            objBLL.ExportarBancoCSV();
+            MessageBox.Show("O arquivo foi gerado com sucesso!");
         }
     }
 }

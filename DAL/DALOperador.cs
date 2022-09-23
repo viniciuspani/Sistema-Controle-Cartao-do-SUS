@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using Controle_Cartao_Sus.DTO;
-
+using System.IO;
 
 namespace Controle_Cartao_Sus.DAL
 {
@@ -17,6 +17,55 @@ namespace Controle_Cartao_Sus.DAL
         public DALOperador(ConexaoBD cx)
         {
             conexao = cx;
+        }
+
+        public string ExportarBancoCSV()
+        {
+            var dataAtual = DateTime.Now;
+            var caminhoArquivo = @"c:\Backup_Cadsus_Sis";
+            var nomeArquivo = $"arquivo_BKP_{dataAtual.ToString("yyyyMMddHHmm")}.csv";
+
+            if (!Directory.Exists(caminhoArquivo))
+            {
+                Directory.CreateDirectory(caminhoArquivo);
+            }
+
+            var caminhoExportacaoFull = Path.Combine(caminhoArquivo,nomeArquivo);
+            try
+            {
+                var con = conexao.ObjConexao;
+                con.Open();
+
+                var consulta = "SELECT * FROM tbl_Operador";                
+                var cmd = new SqlCommand(consulta, con);
+                var exec = cmd.ExecuteReader();
+                var tabelaTemp = new DataTable();
+                tabelaTemp.Load(exec);
+                                
+                var listaExportar = new List<string>();
+                List<string> campos = tabelaTemp.AsEnumerable().Select(row => string.Join(";", row.ItemArray)).ToList();
+                var linhas = string.Join(Environment.NewLine, campos);                
+                listaExportar.Add(linhas);
+                               
+                using (StreamWriter sw = new StreamWriter(caminhoExportacaoFull, true, Encoding.UTF8))
+                {
+                   sw.WriteLine("ID; UNIDADE; OPERADOR; CNES; CPF; SENHA; NIVEL");
+                    var linhaEscrita = string.Empty;
+                    foreach (var linha in listaExportar)
+                    {
+                        var valor = linha.ToString();
+                        linhaEscrita += valor != null ? $"{valor.ToString()};" : ";";
+                                             
+                    }
+                    sw.WriteLine(linhaEscrita);                    
+                }
+                con.Close();
+                return caminhoExportacaoFull;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public void Inserir (Operador operador)
@@ -48,7 +97,7 @@ namespace Controle_Cartao_Sus.DAL
             try
             {
                 DataTable tabela = new DataTable();
-                SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM tbl_Operador WHERE operador LIKE '%" + filtro + "%'", DadosDaConexao.StrConexao);
+                SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM tbl_Operador WHERE operador LIKE '%" + filtro + "%' or unidade LIKE '%" + filtro + "%'", DadosDaConexao.StrConexao);
                 da.Fill(tabela);
                 return tabela;
             }

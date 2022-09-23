@@ -18,3 +18,14 @@ C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_
 C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.exe
 C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.pdb
 C:\Users\PANI\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.AssemblyReference.cache
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.exe.config
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.exe
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\bin\Debug\Controle_Cartao_Sus.pdb
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.AssemblyReference.cache
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.SuggestedBindingRedirects.cache
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.frmPrincipal.resources
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.Properties.Resources.resources
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.GenerateResource.cache
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.csproj.CoreCompileInputs.cache
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.exe
+E:\PANI\USER\Desktop\SENAI\SENAI C#\POO\Controle_Cartao_Sus\obj\Debug\Controle_Cartao_Sus.pdb

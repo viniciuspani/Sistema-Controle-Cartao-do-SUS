@@ -19,6 +19,12 @@ namespace Controle_Cartao_Sus.BLL
             conexao = cx;
         }
 
+        public string ExportarBancoCSV()
+        {
+            DALOperador objDAL = new DALOperador(conexao);
+            return objDAL.ExportarBancoCSV();
+        }
+
         public void Inserir(Operador operador)
         {
             if (operador.Unidade.Trim().Length == 0)

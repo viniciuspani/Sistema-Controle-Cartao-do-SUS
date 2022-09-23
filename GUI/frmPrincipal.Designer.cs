@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnGerarArqCSV = new System.Windows.Forms.Button();
             this.txtCPF = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.btnSalvar = new System.Windows.Forms.Button();
@@ -60,6 +61,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel1.Controls.Add(this.btnGerarArqCSV);
             this.panel1.Controls.Add(this.txtCPF);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.btnSalvar);
@@ -86,8 +88,24 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1160, 457);
+            this.panel1.Size = new System.Drawing.Size(1160, 480);
             this.panel1.TabIndex = 100;
+            // 
+            // btnGerarArqCSV
+            // 
+            this.btnGerarArqCSV.BackColor = System.Drawing.Color.White;
+            this.btnGerarArqCSV.FlatAppearance.BorderColor = System.Drawing.Color.DarkBlue;
+            this.btnGerarArqCSV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGerarArqCSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGerarArqCSV.Image = global::Controle_Cartao_Sus.Properties.Resources.btSalvar;
+            this.btnGerarArqCSV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGerarArqCSV.Location = new System.Drawing.Point(17, 444);
+            this.btnGerarArqCSV.Name = "btnGerarArqCSV";
+            this.btnGerarArqCSV.Size = new System.Drawing.Size(451, 33);
+            this.btnGerarArqCSV.TabIndex = 37;
+            this.btnGerarArqCSV.Text = "Gerar Arquivo CSV";
+            this.btnGerarArqCSV.UseVisualStyleBackColor = false;
+            this.btnGerarArqCSV.Click += new System.EventHandler(this.btnGerarArqCSV_Click);
             // 
             // txtCPF
             // 
@@ -384,8 +402,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 481);
+            this.ClientSize = new System.Drawing.Size(1184, 501);
             this.Controls.Add(this.panel1);
+            this.KeyPreview = true;
             this.Name = "frmPrincipal";
             this.Text = "Sistema Controle Operadores CADSUS";
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
@@ -424,6 +443,7 @@
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.TextBox txtCPF;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnGerarArqCSV;
     }
 }
 
